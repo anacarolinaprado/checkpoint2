@@ -1,0 +1,125 @@
+header{
+    background-color:  rgb(102,187,34);
+    height: 80px;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+ul>li{
+    padding: 25px;
+    font-size: 25px;
+    color: black;
+}
+
+ul>li:hover{
+    color: white;
+}
+
+ul>li>a{
+    text-decoration: none;
+    color: black;
+}
+
+ul>li>a:hover{
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+}
+
+#espaco-section{
+    margin-top: 10px;
+}
+
+figure{
+    display: flex;
+    justify-content: center;
+}
+
+img{
+    width: 200px;
+}
+
+#camisa-franca{
+    width: 190px;
+}
+
+body>section>article>h5{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px; 
+}
+
+body>section>article>p{
+    text-align: center;
+    font-size: 12px;
+}
+
+.formatar-semespaco{
+    margin: 0;
+}
+
+body>section>article>div>input{
+    width: 50px;
+}
+
+body>section>article>div>img{
+    width: 20px;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.comprar{
+    background-color: rgb(102,187,34);
+    color: white;
+    border: 1px solid black;
+}
+
+/*****Página de Contato*******/
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main>h1{
+    margin: 0;
+    padding: 0;
+    align-items: flex-start;
+}
+
+form{
+    width: 40%;
+}
+
+.form{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+#enviar{
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+
+
+
+
+
+
